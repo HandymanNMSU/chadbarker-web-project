@@ -63,3 +63,13 @@ a:hover {
     color: #d35400;
     text-decoration: underline;
 }
+
+table {
+  border-collapse: collapse; 
+  border: 1px solid black; 
+}
+
+th, td {
+  padding: 5px; 
+  border: 1px solid black; 
+}
