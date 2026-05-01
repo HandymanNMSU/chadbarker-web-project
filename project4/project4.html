@@ -2,23 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Welding with Chad (CSS)</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welding with Chad (Javascript)</title>
+    <link rel="stylesheet" href="../css/p4styles.css">
 </head>
 
 
 <body>
 
-    <nav class="main-nav">
-        <a href="../index.html">Home</a>
-        <a href="project2.html">Welding with Chad</a>
-        <a href="#top">Project 3 page with CSS</a>
-        <a href="../project4/project4.html">Project 4 page with Javascript</a>
-    </nav>
+    <div class="box">
+        <nav class="main-nav">
+            <a href="../index.html">Home</a>
+            <a href="../html/project2.html">Welding with Chad</a>
+            <a href="../html/project3.html">Project 3 page with CSS</a>
+            <a href="#top">Project 4 page with Javascript</a>
+        </nav>
+    </div>
 
     <main>
-        <h1><i>Chad's Welding Page (with CSS)</i></h1>
+        <h1><i>Chad's Welding Page (with Javascript)</i></h1>
+
+        <form id="userForm">
+            <p>
+                <label for="userName">
+                    Enter your name:
+                </label>
+            </p>
+            <input type="text" id="userName" placeholder="Type here..." required>
+            <button type="submit" id="submitBtn">Say Hello</button>
+        </form>
+
+        <!-- This is where the greeting will appear -->
+        <div id="greetingDisplay"></div>
+
+        <!-- Link to your JavaScript file -->
+        <script src="../javascript/script.js"></script>
 
 
         <p>Welcome to the site where I share my favorite hobby of welding. In this site I will share some pictures with
@@ -28,7 +46,7 @@
         <p>Here is a picture of a welder welding a replacement screen for a dumpster lid. Note the welder not properly
             using his jacket. After this picture was taken, the welder was informed of the safety concern and continued
             on the project properly protected. (See tips below)</p>
-        <div><img src="images/weldingheader.png" width="900"
+        <div><img src="../images/weldingheader.png" width="900"
                 alt="This is a picture of a welder welding a 90 degree joint.">
         </div>
         <h2><i>Welding Tips</i></h2>
@@ -104,7 +122,7 @@
 
         <p>
             <a href="https://www.everlastgenerators.com/product/redsabre-2000" target="_blank">Learn about this laser
-                welder<br><img src="images/laserwelder.png" width="400" alt="This is a picture of a laser welder.">
+                welder<br><img src="../images/laserwelder.png" width="400" alt="This is a picture of a laser welder.">
             </a>
         </p>
     </main>
