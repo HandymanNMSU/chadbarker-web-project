@@ -6,39 +6,41 @@ body {
 }
 
 .box {
-    background-color: lightblue;
+    background-color: white;
     padding: 50px;
     text-align: center;
-    width: 80%; /* Large width for desktop */
+    width: 80%;
+    /* Large width for desktop */
     margin: 0 auto;
 }
 
 /* Media Query: Adjustments for screens smaller than 600px (Mobile) */
 @media screen and (max-width: 800px) {
     .box {
-        background-color: coral; /* Change color for mobile */
-        width: 100%;             /* Adjust width to fill small screens */
-        padding: 20px;           /* Reduce padding */
-        font-size: 12px;         /* Smaller text for smaller screens */
+        background-color: rgb(228, 248, 255);
+        width: 100%;
+        padding: 20px;
+        font-size: 12px;
     }
-    
+
     h1 {
-        font-size: 1.5rem;       /* Shrink header size */
+        font-size: 1.5rem;
+        /* Shrink header size */
     }
 }
 
 .main-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  width: 100%;
-  padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .main-nav a {
-  text-decoration: none;
-  flex: 1;
-  text-align: center;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
 }
 
 h1 {
@@ -93,15 +95,16 @@ a:hover {
 }
 
 table {
-  border-collapse: collapse; 
-  border: 1px solid black; 
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
-th, td {
-  padding: 5px; 
-  border: 1px solid black; 
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
 }
 
 td:nth-child(3) {
-  text-align: center;
+    text-align: center;
 }
